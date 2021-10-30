@@ -1,0 +1,52 @@
+- Instrucciones de uso para el Archivo "DescargaDeDatos.ipynb":
+
+1º) Se pregunta si se quiere introducir una ruta de trabajo para la descarga de los datos.
+
+   a) si se selecciona que SI. Preguntará por la ruta deseada.
+   b) si se selecciona que NO. Se seleccionará por defecto la ruta donde se encuentre 
+      el fichero "DescargaDeDatos.ipynb".
+     
+2º) Durante la ejecución del código. (Se encuentra dividido en 4 partes)
+    se crearán tres carpetas ("Meteorologia", "Contaminacion" y "Trafico") cada una asociada 
+    a cada parte de la ejecución del documento. Se descargarán todos los archivos ".csv"
+    asociados a cada tema en sus respectivas carpetas. 
+    Los nombres de las descargas seran:
+    
+        a) "METEO_X.csv" para los ficheros meterológicos.
+        b) "mes_moAño.csv" para los ficheros de contaminación.
+        c) "TRF_X.csv" para los ficheros de tráfico.
+    
+    Posteriormente al final de cada apartado automaticamente se crearán los ficheros
+    con toda la información unificada en su respectiva carpeta.
+    Estos ficheros son:
+        a) "ArchivoContaminaciom.csv".
+        b) "ArchivoMeteorologia.csv".
+        c) "ArchivoTrafico.csv".
+
+3º) La cuarta parte descargará dos archivos: 
+
+    a) "EstacionesDeContaminacion.csv" que se alojará dentro de la carpeta "Contaminacion".
+    b) "EstacionesMeteorologicas.csv" que se alojará dentro de la carpeta "Meteorologia".
+    
+    
+    
+    
+
+
+- Instrucciones de uso para el Archivo "EstacionesDeContaminacionYMeteorologicas.ipynb"
+
+1º) Se pedirá que se establezca la ruta donde se alojan las carpetas descartadas en el apartado 
+    anterior.
+
+2º) Generarán dos tablas, con las estaciones coincidentes en Latitud y longitud, para poder
+    comparar que estación es la indicada para realizar el estudio.
+    
+3º) Se creará otra carpeta con el nombre "PlazaEliptica" donde se alojarán dos archivos:
+    Al principio se ha asignado una variable con el código de la estación, por defecto
+    esta asignado el número 56 que corresponde a plaza Elíptica si se desea cambiar a otra estación
+    solo se tendra que buscar el "CODIGO_CORTO" de dicha estación.
+    
+    a) "MeteorologiaPlazaEliptica.csv" que contendrán los datos meteorológicos filtrados
+        exclusivamente para la estación de plaza Elíptica (56).
+    b) "ContaminacionPlazaEliptica.csv" que contendrán los datos de contamiación filtrados
+        exclusivamente para la estación de plaza Elíptica (56).
