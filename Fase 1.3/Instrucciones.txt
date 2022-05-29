@@ -35,6 +35,9 @@
 
 - Instrucciones de uso para el Archivo "EstacionesDeContaminacionYMeteorologicas.ipynb"
 
+** Antes de nada, guardar archivos EstacionesContaminacion.csv y EstacionesMeteorologicas.csv como csv (utf-8)
+   si no, dará error.
+    
 1º) Se pedirá que se establezca la ruta donde se alojan las carpetas descartadas en el apartado 
     anterior.
 
